@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: gray;
+        }
+        .card{
+            background-color: white;
+            width: 198px;
+            height: 324px;
+            border-radius: 7px;
+            padding: 0 0 0px 0;
+        }
+        .image{
+            padding: 5px;
+        }
+        .image img{
+            border-radius: 7px;
+        }
+        .content{
+            padding: 3px 13px;
+            font-family: "Poppins", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .content p{
+            font-size: 9px;
+            color: gray;
+        }
+        .capsules{
+            padding: 0 28px 0 14px;
+        }
+        .capsules span{
+            border: 1px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+            font-size: 6px;
+            font-family: "Poppins", serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .button {
+            text-align: center;
+        }
+        .button button{
+            padding: 4px 13px;
+            border-radius: 15px;
+            background-color: rgb(39, 159, 238);
+            color: aqua;
+            font-size: 8px;
+            border: none;
+        }
+        .button button:hover{
+            background-color: rgb(147,199,245);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="188px" src="https://media.istockphoto.com/id/1181845094/photo/seniors-enjoying-and-having-fun-in-rowing-boat.jpg?s=612x612&w=0&k=20&c=4DZcjE_Qdw8KPUKAJ4XOdX3CPtoVPBb1w-u2FcR_rf8=" alt="a man with boat">
+        </div>
+        <div class="capsules">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>RISHI</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis reiciendis odio explicabo quod nisi consectetur sapiente illo vitae animi, dolore quaerat, quia, perspiciatis necessitatibus nostrum.</p>
+        </div>
+        <div class="button">
+            <button>Read More!</button>
+        </div>
+    </div>
+</body>
+</html>

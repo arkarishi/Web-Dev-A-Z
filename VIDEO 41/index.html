@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar using flexbox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+            background-color: aqua;
+            padding: 10px;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        #logo{
+            height: 10vh;
+            width: 30vh;
+        }
+        .options{
+            display: flex;
+            width: 80vw;
+            justify-content: center;
+            column-gap: 100px;
+            align-items: center;
+            justify-content: flex-end;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        a:hover{
+            color: chocolate;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="logo" src="logo.png" alt="">
+            <div class="options">
+                <a href="/">Products</a>
+                <a href="/">For Business</a>
+                <a href="/">Resources</a>
+                <a href="/">Support</a>
+                <a href="/">Our Company</a>
+                <a href="/"><img src="img.png" alt=""></a>
+            </div>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Multicolor website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+    </style>
+    <style>
+        /* :root{
+            --primary-color:rgb(174, 112, 233);
+            --text-color:white;
+            --sec-color:rgb(230, 206, 255);
+        } */
+        :root{
+            --primary-color:rgb(0, 228, 76);
+            --text-color:white;
+            --sec-color:rgb(194, 255, 215);
+        }
+        body{
+            background-color: var(--sec-color);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+        nav{
+            background-color: var(--primary-color);
+            padding: 12px 0px;
+        }
+        ul>li{
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-weight: bolder;
+            color: var(--text-color);
+        }
+        ul li a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .right ul li {
+            list-style: none;
+        }
+        .right ul{
+            display: flex;
+            width: 54vw;
+            gap: 50px;
+            justify-content: flex-end;
+            font-size: larger;
+        }
+        .end{
+            display: flex;
+            width: 40vh;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .container{
+            border: 2px solid black;
+            width: 95vw;
+            height: 80vh;
+            margin: 10px 20px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-items: center;
+            align-items: center;
+        }
+        .containers{
+            border: 2px solid black;
+            width: 200px;
+            height: 100px;
+            font-size: medium;
+            align-content: space-around;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Design the body of this website:
+    https://bit.ly/UltraEdit -->
+    
+    <header>
+        <nav>
+            <div class="img">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="UltraEdit">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Products</a></li>
+                    <li><a href="/">Pricing</a></li>
+                    <li><a href="/">Resources</a></li>
+                    <li><a href="/">About Us</a></li>
+                </ul>
+            </div>
+            <div class="end">
+                <img src="img.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="containers">English</div>
+            <div class="containers">Deutch</div>
+            <div class="containers">Italiano</div>
+            <div class="containers">Espanol</div>
+            <div class="containers">Fracais</div>
+            <div class="containers">Portugese</div>
+            <div class="containers">Japanese</div>
+            <div class="containers">Korean</div>
+            <div class="containers">Chinese</div>
+            <div class="containers">Traditional Chinese</div>
+        </div>
+    </main>
+</body>
+</html>

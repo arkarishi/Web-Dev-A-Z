@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: "Poppins", serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+        :root{
+            --header-color: pink;
+            --boxcolor1: rgb(214, 53, 79);
+            --boxcolor2: rgb(17, 70, 218);
+            
+        }
+        ul li{
+            list-style: none;
+            display: inline;
+            padding: 23px;
+            font-size: larger;
+        }
+        nav{
+            background-color: var(--header-color);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: azure;
+        }
+        .parent{
+            background-color: green;
+            border: 2px solid black;
+            margin: 10px;
+            height: 93vh;
+        }
+        .parent div{
+            border: 2px solid black;
+            height: 90vh;
+            width: 45vw;
+            margin: 10px 15px;
+            display: inline-block;
+        }
+        .parent .box1{
+            background-color: var(--boxcolor1);
+        }
+        .parent .box2{
+            background-color: var(--boxcolor2);
+        }
+        .box3{
+            border: 2px solid black;
+            margin: 10px 50px;
+            height: 17vh;
+            border-radius: 30px;
+            text-align: center;
+            font-size: 50px;
+        }
+        img{
+            height: 30px;
+            border-radius: 50%;
+            position: relative;
+            border: 2px solid black;
+            bottom: 170px;
+            left: 96.5vw;
+        }
+        footer{
+            border: 2px solid black;
+            padding: 20px 0px;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="parent">
+            <div class="box1">Hello I am 1st box</div>
+            <div class="box2">Hello I am 2nd box</div>
+        </div>
+        <div class="box3">WELCOME TO SIGMA WEB DEVELOPMENT EXPRESS</div>
+        <img src="img.jpg" alt="train">
+
+    </section>
+    <footer></footer>
+</body>
+</html>
